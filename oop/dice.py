@@ -1,0 +1,12 @@
+import random
+class Dice:    
+    def __init__(self, sides=6):
+        self.sides = sides
+    def roll(self):
+        return random.randint(1,6)
+    
+Dice1 = Dice()
+Dice2 = Dice()
+print(Dice1.roll())
+print(Dice2.roll())
+        
